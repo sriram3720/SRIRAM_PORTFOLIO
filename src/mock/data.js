@@ -18,40 +18,40 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a fullstack web developer currently working on MERN stack.',
-  paragraphTwo: 'In frontend i am familiar in React,express framework and backend i know Nodejs. i am also good at sql and magoDb in database',
-  paragraphThree: 'I am self taught web developer .',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I am a fullstack web developer (MERN stack).Currently pursuing BE(CSE) 3rd year and working in a freelance project',
+  paragraphTwo: '	Tech Enthusiast and like to learn about new technologies.	Currently exploring Blockchain Email solution for Enterprise. ',
+  paragraphThree: 'I had Done three main Projects, Namely Apple Clone (Frontend), Funtime(Backend), Porfolio (Static React). Checkout some of My works below.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Appletv_clone',
-    info: 'It is a clone of appletv streaming website.this website has many shows,webseries,sports live streaming.Appletv website is quiet good at UI design . It is built by using simple HTML ,CSS,Js without any framework.',
-    info2: '',
-    url: '',
-    repo: 'hhttps://user-images.githubusercontent.com/101914524/174465411-bffb31e9-32c1-472b-a049-562181b972c3.png', // if no repo, the button will not show up
+    img: 'project.png',
+    title: 'Appletv Clone (Frontend)',
+    info: 'Created a apple clone website using HTML,css,javascript.Pretty much matched the latest Apple tv UI.Right Now implementing the backend service for video Streaming of free channels',
+    info2: 'Which helped me to gain immense experience in frontend',
+    url: 'https://apple-clone-ea340.web.app/',
+    repo: 'https://github.com/sriram3720/Appletv_clone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2.png',
+    title: 'Funtime (Backend)',
+    info: 'Implemented RESTful API server for movie rental application.Built and deployed overall service infrastructure utilizing RestFul api, Experess by implenting Test Driven Deveopment(TDD) using Unit and Integration testing.Developed an Authentication and Authorisation protocol using Joi, JWT, bcrypt.',
+    info2: 'Creted a model Genre, Movies, Users in MongoDb database to store the information.Created a middleware for Authentication, Error Logging, Validating User, and Validating Movies with express.Currently working on the frontend using React',
+    url: 'https://github.com/sriram3720/Funtime',
+    repo: 'https://github.com/sriram3720/Funtime', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project3.png',
+    title: 'Portfolio (React)',
+    info: 'Stack used MERN.Created a Static webpage using React, HTML and CSS.	Created a Component About, Contact us, Header, Footer, Portfolio, Resume and Testimonial using React to link.Implemneted the hyperLink at Header to link subsection',
+    info2: 'Created ResumeData.js to input the data in json format.Implemented integration testing to prevent crashing.Implemneted ServiceWorker to load faster on subsequent visits.Built and deployed Static webite on firebase hoisting platform using firebase CLI and implemented the integeration testing in firebase cloud fuction',
+    url: 'https://github.com/sriram3720/Sriram-Portfolio',
+    repo: 'https://github.com/sriram3720/Sriram-Portfolio', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'sriram3720@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +68,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/Sriraman_offl',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sriraman-shanmugam-139779250',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/sriram3720',
     },
   ],
 };
